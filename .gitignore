@@ -1,35 +1,51 @@
-# Vivado junk folders
-.cache/
-.hw/
-.sim/
-.ip_user_files/
-vivado_*_project/
+# Vivado project files
 *.jou
 *.log
 *.str
-*.pb
-*.wdb
-*.webtalk
-*.xml
-
-# Temporary files
-*.tmp
+*.opt
 *.backup
-*.bak
+*.webtalk
+*.wdb
+*.xpr
 *.xpr~
-*.xpr.lock
-*.xds
-
-# Auto-generated files
 *.runs/
-*.sdk/
-*.srcs/sources_1/bd/*
-*.srcs/sources_1/ip/*_tmp/
-*.srcs/sources_1/ipshared/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.srcs/sources_1/bd/
+*.srcs/sources_1/ip/
 *.srcs/sources_1/imports/
 
-# If you're using Vivado HLS
+# Vivado HLS (if used)
+*.rpt
+*.pb
 *.hls/
+*.HLS/
 
-# DS_Store for Mac
+# Temporary files
+*~
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# OS-specific
 .DS_Store
+Thumbs.db
+
+# Vivado generated bitstreams and programming files (optional)
+*.bit
+*.bin
+*.mcs
+
+# If using Vivado IP integrator block designs
+*.bd.bak
+*.bd.dcp
+
+# Optional: ignore generated SDK files
+.sdk/
+
+# Optional: if using generated testbenches
+*.vcd
+*.wlf

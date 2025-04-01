@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="nuclear_monitor_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="nuclear_monitor_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="700.000000 us"></ZoomEndTime>
+      <Cursor1Time time="253.598015 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="167"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/nuclear_monitor_tb/CLOCK" type="logic">
+      <obj_property name="ElementShortName">CLOCK</obj_property>
+      <obj_property name="ObjectShortName">CLOCK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nuclear_monitor_tb/RESET" type="logic">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nuclear_monitor_tb/RAD" type="logic">
+      <obj_property name="ElementShortName">RAD</obj_property>
+      <obj_property name="ObjectShortName">RAD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nuclear_monitor_tb/ALARM" type="logic">
+      <obj_property name="ElementShortName">ALARM</obj_property>
+      <obj_property name="ObjectShortName">ALARM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nuclear_monitor_tb/clock_period" type="other">
+      <obj_property name="ElementShortName">clock_period</obj_property>
+      <obj_property name="ObjectShortName">clock_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nuclear_monitor_tb/uut/CLOCK" type="logic">
+      <obj_property name="ElementShortName">CLOCK</obj_property>
+      <obj_property name="ObjectShortName">CLOCK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nuclear_monitor_tb/uut/RESET" type="logic">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nuclear_monitor_tb/uut/RAD" type="logic">
+      <obj_property name="ElementShortName">RAD</obj_property>
+      <obj_property name="ObjectShortName">RAD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nuclear_monitor_tb/uut/ALARM" type="logic">
+      <obj_property name="ElementShortName">ALARM</obj_property>
+      <obj_property name="ObjectShortName">ALARM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nuclear_monitor_tb/uut/count" type="array">
+      <obj_property name="ElementShortName">count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">count[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nuclear_monitor_tb/uut/max_rad" type="other">
+      <obj_property name="ElementShortName">max_rad</obj_property>
+      <obj_property name="ObjectShortName">max_rad</obj_property>
+   </wvobject>
+</wave_config>
