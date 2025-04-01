@@ -1,0 +1,47 @@
+# Vivado generated directories
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.str/
+*.str
+*.sdk/
+
+# Vivado project files
+*.xpr
+*.log
+*.jou
+
+# Bitstream files
+*.bit
+*.bin
+*.mcs
+*.prm
+*.ltx
+
+# Synthesis/Implementation intermediate files
+*.dcp
+*.edif
+*.ngc
+*.ngd
+*.rpt
+*.bgn
+
+# Generated IP output products
+*.xml
+*.xci
+*.html
+*.veo
+*.vho
+*.vhdl
+*.v
+
+# Simulation outputs
+*.wdb
+*.vcd
+*.pb
+
+# Temporary/Backup files
+*~
+*.bak
