@@ -1,0 +1,35 @@
+# Vivado junk folders
+.cache/
+.hw/
+.sim/
+.ip_user_files/
+vivado_*_project/
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.webtalk
+*.xml
+
+# Temporary files
+*.tmp
+*.backup
+*.bak
+*.xpr~
+*.xpr.lock
+*.xds
+
+# Auto-generated files
+*.runs/
+*.sdk/
+*.srcs/sources_1/bd/*
+*.srcs/sources_1/ip/*_tmp/
+*.srcs/sources_1/ipshared/
+*.srcs/sources_1/imports/
+
+# If you're using Vivado HLS
+*.hls/
+
+# DS_Store for Mac
+.DS_Store
